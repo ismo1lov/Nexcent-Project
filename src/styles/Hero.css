@@ -1,0 +1,43 @@
+
+/* Hero */
+
+.hero{
+  background-color: var(--neutral-silver);
+}
+
+.hero-content{
+  padding: 130px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-content div{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+h1{
+  font-size: 62px;
+  font-weight: 600;
+  line-height: 70px;
+}
+
+span{
+    color: var(--primary);
+}
+
+p{
+    color: var(--neutral-grey);
+    font-size: 16px;
+}
+
+.illustration{
+    width: 300px;
+    height: 300px;
+}
+
+.hero .btn{
+  width: 25%;
+}

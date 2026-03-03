@@ -1,0 +1,37 @@
+.unlock {
+  background-color: var(--neutral-white);
+}
+
+.unlock-content {
+  padding: 70px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.unlock img{
+    width: 40%;
+}
+
+.unlock .text-box {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.unlock h1 {
+  color: var(--neutral-d-grey);
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.unlock p {
+  color: var(--neutral-grey);
+  font-size: 16px;
+}
+
+.unlock .btn{
+    width: 25%;
+}
+

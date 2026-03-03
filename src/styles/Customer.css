@@ -1,0 +1,53 @@
+.customer{
+    background-color: var(--neutral-silver);
+}
+
+.customer-content{
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customer img{
+    width: 35%;
+}
+
+.customer .text-box{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 60%;
+}
+
+.customer p{
+    font-size: 16px;
+    line-height: 23px;
+    color: var(--neutral-grey);
+}
+
+.customer h3{
+    color: var(--primary);
+    font-size: 22px;
+}
+
+.customer span{
+    color: var(--neutral-l-grey);
+    font-size: 16px;
+}
+
+.customer .grid-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customer .grid-box img{
+    width: 50px;
+    transition: .3s;
+}
+
+
+.customer .grid-box img:hover{
+    transform: translateY(-10px);
+}

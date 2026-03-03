@@ -1,0 +1,78 @@
+.achievements {
+  background-color: var(--neutral-silver);
+}
+
+.achievements-content {
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.achievements .text-box {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.achievements h1 {
+  font-size: 45px;
+  line-height: 55px;
+}
+
+.achievements p {
+  color: var(--neutral-black);
+}
+
+/* Status */
+
+.status {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.status .parent-box {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.status .child-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+.status .child-box:hover {
+  transform: translate(7px, -7px);
+  box-shadow: -7px 7px 8px var(--shade-3);
+}
+
+.status .child-box img {
+  width: 70px;
+}
+
+.status .child-box div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.status .child-box h3 {
+  color: var(--neutral-d-grey);
+  font-size: 32px;
+}
+
+.status .child-box p {
+  font-size: 15px;
+  color: var(--neutral-grey);
+}
+
+.status .child-4 {
+  margin-left: 30px;
+}

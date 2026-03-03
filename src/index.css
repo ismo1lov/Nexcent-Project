@@ -1,0 +1,89 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+:root {
+  /* Neutral */
+
+  --neutral-black: #263238;
+  --neutral-d-grey: #4d4d4d;
+  --neutral-grey: #717171;
+  --neutral-l-grey: #89939e;
+  --neutral-grey-blue: #abbed1;
+  --neutral-silver: #f5f7fa;
+  --neutral-white: #ffffff;
+
+  /* Primary / Secondary / Info */
+
+  --primary: #28cb8b;
+  --secondary: #263238;
+  --info: #2194f3;
+
+  /* Color Shade */
+
+  --shade-1: #43a046;
+  --shade-2: #388e3b;
+  --shade-3: #237d31;
+  --shade-4: #1b5e1f;
+  --shade-5: #103e13;
+
+  /* Color Tint */
+
+  --tint-1: #66bb69;
+  --tint-2: #81c784;
+  --tint-3: #a5d6a7;
+  --tint-4: #c8e6c9;
+  --tint-5: #e8f5e9;
+
+  /* Action */
+
+  --warning: #fbc02d;
+  --error: #e53835;
+  --success: #2e7d31;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: var(--primary);
+  color: var(--neutral-white);
+  font-size: 14px;
+  text-decoration: 0;
+  border-radius: 3px;
+  border: 0;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--shade-2);
+}
+
+.btn-secondary{
+  background-color: transparent;
+  color: var(--primary);
+  padding: 10px 20px;
+  font-size: 14px;
+  text-decoration: 0;
+  border-radius: 3px;
+  border: 0;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn-secondary:hover{
+  background-color: var(--tint-4);
+}

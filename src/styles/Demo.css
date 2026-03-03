@@ -1,0 +1,15 @@
+.demo{
+    background-color: var(--neutral-silver);
+}
+
+.demo-content{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.demo h1{
+    font-size: 65px;
+    line-height: 80px;
+    color: var(--neutral-black);
+    margin-bottom: 40px;
+}
