@@ -1,4 +1,5 @@
 import "../styles/Navbar.css";
+import Logo from '../assets/navbar-logo.svg'
 
 const Navbar = () => {
   const links = ["Home", "Features", "Community", "Blog", "Pricing"];
@@ -9,10 +10,11 @@ const Navbar = () => {
       data-aos-easing="linear"
       className="navbar"
     >
+
       <div className="container">
         <div className="navbar-content">
           <a href="#">
-            <img src="../public/logo.svg" className="logo" />
+            <img src={Logo} className="logo" />
           </a>
           <ul className="menu">
             {links.map((link) => {
